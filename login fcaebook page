@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Facebook - logn in or sign up</title>
+		<style>
+			#allbody
+				{
+					background-color:Lavender;
+				}
+			header
+				{
+					background-color:DarkSlateBlue;
+					padding:4px;
+				}
+			.regist_button
+				{
+					text-align:left;
+					display:inline-block;
+					margin-left:5px;
+					color:white;
+					margin-bottom:15px;
+				}
+			.email_or_text
+				{
+					display:inline-block;
+					color:white;
+					margin-left:190px;
+				}
+			.pass
+				{
+					display:inline-block;
+					color:white;
+					margin-left:10px;
+					margin-top:15px;
+				}
+			.facehead
+				{
+					color:white;
+					text-align:right;
+					font-size:100%;
+					margin-right:200px;
+					display:inline-block;
+					margin-left:200px;
+				}
+			.art1
+				{
+					float:left;
+					margin-left:200px;
+					margin-top:10px;
+				}
+			.art2
+				{
+					float:right;
+					margin-right:200px;
+					margin-top:10px;
+				}
+			.d1
+				{
+					display:inline-block;
+					border:1px solid CadetBlue;
+				}
+			.d2
+				{
+					display:inline-block;
+					margin-left:5px;
+					border:1px solid CadetBlue;
+				}
+			.d3
+				{
+					margin-top:10px;
+				}
+			.d4
+				{
+					margin-top:10px;
+				}
+			.d5
+				{
+					margin-top:25px;
+				}
+			.d6
+				{
+					margin-top:25px;
+				}
+			.d7
+				{
+					margin-top:25px;
+					color:DarkOliveGreen;
+				}
+			.d8
+				{
+				}
+			.d9
+				{
+					margin-top:30px;
+					color:DarkOliveGreen;
+				}
+			.current account
+				{
+					display:inline-block;
+				}
+			.add account
+				{
+					display:inline-block;
+				}
+			img
+				{
+					border:3px solid DarkViolet;
+				}
+		</style>
+	</head>
+	<body id="allbody">
+		<header>
+				<div class="facehead">
+					<h1>facebook</h1>
+				</div>
+				
+				
+				
+				<div class="email_or_text">
+					<label>Email or Phone</label>
+					<br>
+					<input type="text" type="email" name="pass">
+				</div>
+				
+				
+				
+				<div class="pass">
+					<label>Password</label>
+					<br>
+					<input type="password" name="pass">
+					<br>
+					<!--<a href="">Do you forget the password ?</a>-->
+				</div>
+				
+				
+				
+				<div class="regist_button">
+					<input type="submit" value="Logn In">
+				</div>
+		</header>
+		
+		
+		
+		<article class="art1">
+				<h1 style="font-size:200%">Recent logins</h1>
+				<p style="font-size:120%;color:Indigo;">Click your picture or add an account.</p>
+				
+				<div class="current account>
+					<a href="https://www.facebook.com/"><img src="badr.jpg" width="270" height="250"> <br><h3 style="text-align:center;color:DarkMagenta">Badriola</h3></a>
+				</div>
+				
+				<div class="add account">
+					<form>
+						<center><input type="button" name="add new account" value="Add New Account"></center>
+					</form>
+				</div>
+		</article>
+		
+		
+		
+		
+		
+		
+		<article class="art2">
+				<h1 style="font-size:200%">Create a new account</h1>
+				<p style="font-size:120%;color:Indigo">It's free and always will be.</p>
+				
+				
+				<div class="d1">
+					<form>
+						<input type="text" name="fname" placeholder="First Name">
+					</form>
+				</div>
+				
+				<div class="d2">
+					<form>
+						<input type="text" name="lname" placeholder="Last Name">
+					</form>
+				</div>
+				
+				<div class="d3">
+					<form>
+						<input type="email" name="phone or email" placeholder="Mobile number or email address">
+					</form>
+				</div>
+				
+				<div class="d4">
+					<form>
+						<input type="password" name="pass" placeholder="New password">
+					</form>
+				</div>
+				
+				
+				
+				<div class="d5">
+					<label style="color:MediumBlue">Birthday</label>
+					<br>
+					<form>
+						<select>
+							<option value="day">Day</option>
+							<option value="1" selected>1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+							<option value="21">21</option>
+							<option value="22">22</option>
+							<option value="23">23</option>
+							<option value="24">24</option>
+							<option value="25">25</option>
+							<option value="26">26</option>
+							<option value="27">27</option>
+							<option value="28">28</option>
+							<option value="29">29</option>
+							<option value="30">30</option>
+							<option value="31">31</option>
+						</select>
+						
+						<select>
+							<option value="month">Month</option>
+							<option value="jan" selected>Jan</option>
+							<option value="feb">Feb</option>
+							<option value="mar">Mar</option>
+							<option value="apr">Apr</option>
+							<option value="may">May</option>
+							<option value="jun">Jun</option>
+							<option value="jul">Jul</option>
+							<option value="aug">Aug</option>
+							<option value="sept">Sept</option>
+							<option value="oct">Oct</option>
+							<option value="nov">Nov</option>
+							<option value="dec">Dec</option>
+						</select>
+						
+						
+						<select>
+							<option value="year">Year</option>
+							<option value="2000" selected>2000</option>
+							<option value="2001" >2001</option>
+							<option value="2002" >2002</option>
+							<option value="2003" >2003</option>
+							<option value="2004" >2004</option>
+							<option value="2005" >2005</option>
+							<option value="2006" >2006</option>
+							<option value="2007" >2007</option>
+							<option value="2008" >2008</option>
+							<option value="2009" >2009</option>
+							<option value="2010" >2010</option>
+							<option value="2011" >2011</option>
+							<option value="2012" >2012</option>
+							<option value="2013" >2013</option>
+							<option value="2014" >2014</option>
+							<option value="2015" >2015</option>
+							<option value="2016" >2016</option>
+							<option value="2017" >2017</option>
+							<option value="2018" >2018</option>
+							<option value="2019" >2019</option>
+							<option value="2020" >2020</option>
+						</select>
+					</form>
+				</div>
+				
+				
+				
+				<div class="d6">
+					<label style="color:MediumBlue">Gender</label>
+					<br>
+					<form>
+						<input type="radio" name="male" value="male" checked>Male
+						<input type="radio" name="female" value="female">Female
+						<input type="radio" name="custom" value="custom">Custom
+					</form>
+				</div>
+				
+				
+				
+				<div class="d7">
+					<p>By clicking Sign Up, you agree to our <a href="" target="_blank">Terms</a>, <a href="">Data Policy</a> and <br>
+					<a href="" target="_blank">Cookie Policy</a>. You may receive SMS notifications from us and <br>
+					can opt out at any time.
+				</div>
+				
+				
+				<div class="d8">
+					<form>
+						<input type="button" name="sign up" value="Sign Up">
+					</form>
+				</div>
+				
+				
+				<div class="d9">
+					<a href="">Create a Page</a> for a celebrity, band or business.
+				</div>
+		</article>
+	</body>
+</html>
